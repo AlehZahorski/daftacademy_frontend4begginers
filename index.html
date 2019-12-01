@@ -34,27 +34,13 @@
             </ul>
         </nav>
     </header>
+
+
+
+
     <main class="page-content">
         <section id="home" class="content-section">
-            <!--
-                    ZAGADNIENIE PONADPROGRAMOWE
 
-                    Nagłówek 'Home' nie jest pokazany na projekcie graficznym, ale dobrą praktyką
-                    jest umieszczanie nagłówków przy każdej głównej sekcji strony.
-                    Pozwoli to na użytkownikom czytników ekranowych (np. osobom niewidomym lub niedowidzącym)
-                    na zorientowanie się w strukturze naszej strony.
-                    A żeby zachować wygląd strony adekwatny do projektu graficznego,
-                    można utworzyć pomocniczą klasę CSS (np. 'screen-reader-only'),
-                    która będzie ukrywała dany element dla standardowego użytkownika.
-
-                    Należy jednak pamiętać, że ukrywanie elementów strony może obniżyć ranking
-                    pozycjonowania twojej strony (SEO) i powinniśmy starać się umieszczać elementy nagłówkowe
-                    w projekcie graficznym.
-                    Dlatego też trzeba świadomie stosować to rozwiązanie i jeśli bardziej zależy nam na
-                    pozycjonowaniu niż dostępności, wtedy możemy użyć więcej niż jeden znacznik <h1> i
-                    używać go jako głównego nagłówka danych sekcji (w przypadku naszego projektu <h2>
-                    zamienilibyśmy na <h1>, a <h3> na <h2>).
-                -->
             <h2 class="content-section__header screen-reader-only">Home</h2>
             <ul class="band-members">
                 <li class="band-members__item">
@@ -80,6 +66,10 @@
             </ul>
 
         </section>
+
+
+
+
         <section id="about" class="content-section about-section">
             <h2 class="content-section__header">About</h2>
             <img src="./images/band01.jpg" alt="Image of band members standing at the construction site" />
@@ -128,7 +118,9 @@
                 </article>
             </div>
         </section>
-        <section id="video" class="content-section">
+
+
+        <section id="video" class="content-section video-section">
             <h2 class="content-section__header">Video</h2>
             <iframe width="853" height="480" src="https://www.youtube.com/embed/AstRXh-vKNI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </section>
@@ -164,7 +156,9 @@
                 </li>
             </ul>
         </section>
-        <section id="contact" class="content-section">
+
+
+        <section id="contact" class="content-section footer-section">
             <h2 class="content-section__header">Contact</h2>
             <img class="gallery__image" src="./images/band12.jpg" alt="Image of band members posing next to a train" />
             <address>
@@ -186,12 +180,10 @@
             </form>
         </section>
     </main>
-    <footer class="page-footer">
-        <!--
-                ZAGADNIENIE PONADPROGRAMOWE
 
-                Podobnie jak wyżej, nagłówek jest utworzony dla użytku czytników ekranowych.
-            -->
+
+    <footer class="page-footer">
+
         <h2 class="screen-reader-only">Social media links</h2>
         <ul class="social-links">
             <li class="social-links__item">
