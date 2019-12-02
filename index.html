@@ -3,7 +3,10 @@
 
 <head>
     <title>6BM Band Official Website</title>
+    <meta name="description" content="Siemasz. Jestesmy zespolem ktory gra zajebista muzyke i to kurcze wlasnie dla ciebie. wiec wpadaj, Let there be rock ">
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -39,27 +42,28 @@
 
 
     <main class="page-content">
-        <section id="home" class="content-section">
 
+        <section id="home" class="content-section">
+            <div class="page-content__poligon"></div>
             <h2 class="content-section__header screen-reader-only">Home</h2>
             <ul class="band-members">
-                <li class="band-members__item">
-                    <img class="band-members__image" src="./images/band-member01.png" alt="Image of stylized keyboard player's face" />
+                <li class="band-members__item ">
+                    <img class="band-members__image__first" src="./images/band-member01.png" alt="Image of stylized keyboard player's face" />
                     <p class="band-members__name">Kamil Zgondek</p>
                     <p class="band-members__desc">Keyboard</p>
                 </li>
-                <li class="band-members__item">
-                    <img class="band-members__image" src="./images/band-member02.png" alt="Image of stylized vocalist's face" />
+                <li class="band-members__item ">
+                    <img class="band-members__image__second" src="./images/band-member02.png" alt="Image of stylized vocalist's face" />
                     <p class="band-members__name">Łukasz Furman</p>
                     <p class="band-members__desc">Vocals</p>
                 </li>
-                <li class="band-members__item">
+                <li class="band-members__item ">
                     <img class="band-members__image" src="./images/band-member03.png" alt="Image of stylized drummer's face" />
                     <p class="band-members__name">Kamil Majewski</p>
                     <p class="band-members__desc">Drums</p>
                 </li>
-                <li class="band-members__item">
-                    <img class="band-members__image" src="./images/band-member04.png" alt="Image of stylized bassist's face" />
+                <li class="band-members__item ">
+                    <img class="band-members__image__end" src="./images/band-member04.png" alt="Image of stylized bassist's face" />
                     <p class="band-members__name">Daniel Cajzer</p>
                     <p class="band-members__desc">Bass guitar</p>
                 </li>
@@ -71,18 +75,23 @@
 
 
         <section id="about" class="content-section about-section">
-            <h2 class="content-section__header">About</h2>
-            <img src="./images/band01.jpg" alt="Image of band members standing at the construction site" />
+            <h2 class="content-section__header">ABOUT</h2>
+            <img src="./images/band01.jpg" class="content-section__photo" alt="Image of band members standing at the construction site" />
             <div class="about-section__desc">
-                <h3 class="about-section__desc-header">Straight from Lublin</h3>
+                <h3 class="about-section__desc-header">STRAIGHT FROM LUBLIN</h3>
                 <p class="about-section__desc-details">
                     6BM is a young band which has it's origins in the city of Lublin, playing music described as electrorock.<br/> Band members aim to convey emotions, reflexion but also hope.<br/><br/> They are inspired by various genres, like: alternative
                     rock, nu-metal, synthwave or even drum'n'bass.<br/> As for now they released their debut EP - TRINITY and they started working on their first full length album.
                 </p>
             </div>
         </section>
+
+
+
+
+
         <section id="concerts" class="content-section">
-            <h2 class="content-section__header">Concerts</h2>
+            <h2 class="content-section__header">CONCERTS</h2>
             <div class="concerts">
                 <article class="concerts__item">
                     <img class="concerts__image" src="./images/band02_WiechnikMarcin.jpg" alt="Image of band drummer during a concert" />
@@ -121,11 +130,11 @@
 
 
         <section id="video" class="content-section video-section">
-            <h2 class="content-section__header">Video</h2>
+            <h2 class="content-section__header">VIDEO</h2>
             <iframe width="853" height="480" src="https://www.youtube.com/embed/AstRXh-vKNI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </section>
         <section id="photos" class="content-section">
-            <h2 class="content-section__header">Photos</h2>
+            <h2 class="content-section__header">PHOTOS</h2>
             <ul class="gallery">
                 <li class="gallery__item">
                     <img class="gallery__image" src="./images/band05_JakubBodys.jpg" alt="Image of band vocalist during a concert" />
@@ -159,7 +168,7 @@
 
 
         <section id="contact" class="content-section footer-section">
-            <h2 class="content-section__header">Contact</h2>
+            <h2 class="content-section__header">CONTACT</h2>
             <img class="gallery__image" src="./images/band12.jpg" alt="Image of band members posing next to a train" />
             <address>
                     Tel: 123 456 789<br/>
@@ -187,16 +196,16 @@
         <h2 class="screen-reader-only">Social media links</h2>
         <ul class="social-links">
             <li class="social-links__item">
-                <a class="social-links__link" href="http://facebook.com/">Facebook</a>
+                <a class="social-links__link" href="http://facebook.com/"> <img src="./images/facebook.png" alt="facebook" class="social-links__ico-size"> </a>
             </li>
             <li class="social-links__item">
-                <a class="social-links__link" href="http://instagram.com/">Instagram</a>
+                <a class="social-links__link" href="http://instagram.com/"> <img src="./images/instagram.png" alt="instagram" class="social-links__ico-size"></a>
             </li>
             <li class="social-links__item">
-                <a class="social-links__link" href="http://last.fm/">Last.fm</a>
+                <a class="social-links__link" href="http://last.fm/"> <img src="./images/lastfm.png" alt="last.fm" class="social-links__ico-size"></a>
             </li>
             <li class="social-links__item">
-                <a class="social-links__link" href="http://youtube.com/">Youtube</a>
+                <a class="social-links__link" href="http://youtube.com/"> <img src="./images/youtube.png" alt="youtube" class="social-links__ico-size"></a>
             </li>
         </ul>
     </footer>
