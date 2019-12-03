@@ -215,13 +215,97 @@ a:hover {
 
 /* ------- koniec sekcja 2 about ------ */
 
+
+/* ------- poczatek 3 sekcji concerts ------ */
+
 .content-section:nth-child(odd) {
     background-color: #25072e;
 }
 
-.video-section {
-    background-color: black;
+.concerts__image {
+    width: 400px;
+    box-shadow: 0 6px 2px -1px #EC008C;
 }
+
+.concerts__item {
+    width: 400px;
+    z-index: 1;
+}
+
+.concerts {
+    display: grid;
+    grid-template: "first second" "tree four";
+    grid-template-areas: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    float: right;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+.concerts__item0 {
+    grid-area: first;
+}
+
+.concerts__item1 {
+    grid-area: second;
+}
+
+.concerts__item2 {
+    grid-area: tree;
+}
+
+.concerts__item3 {
+    grid-area: four;
+}
+
+.concerts__date {
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccc8ff;
+    float: left;
+}
+
+.concerts__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.concerts__location {
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ccc8ff;
+    float: left;
+    margin-top: -10%;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    margin-top: 10%;
+    background-color: #25072e;
+    opacity: 0.5;
+    color: #ccc8ff;
+    border-radius: none;
+}
+
+
+/* ------- koniec 3 sekcji concerts ------ */
+
+
+/* ------- poczatek 4 sekcji video --------*/
+
+.video-section {
+    background-color: rgb(26, 4, 32);
+}
+
+.content-section__video {
+    box-shadow: 0px -5px 0px 0px #EC008C;
+}
+
+
+/* ------- koniec 4 sekcji video --------*/
 
 .footer-section {
     background-color: black;
